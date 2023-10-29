@@ -15,11 +15,11 @@ Cкрипт на Python автоматизирует процесс копиро
 Чтобы использовать скрипт, клонируйте этот репозиторий и запустите скрипт с помощью Python:
 
 ```bash
-python script.py -i [Список IP-адресов] -p [Пароль] -u [Имя пользователя]
+python my_ssh_pub_key_to_authorized_keys_remote_host.py -i [Список IP-адресов] -p [Пароль] -u [Имя пользователя]
 ```
 Пример
 ```bash
-python script.py -i 192.168.1.1 192.168.1.2 -p your_password -u your_username
+python my_ssh_pub_key_to_authorized_keys_remote_host.py -i 192.168.1.1 192.168.1.2 -p remote_password -u remote_username
 ```
 В этом примере your_password — это пароль для SSH, your_username — это имя пользователя для SSH, а 192.168.1.1 и 192.168.1.2 — это IP-адреса серверов, на которые нужно скопировать SSH-ключи.
 
